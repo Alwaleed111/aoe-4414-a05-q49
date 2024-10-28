@@ -32,9 +32,9 @@ muls = c_in*n_wv
 divs = 0  
 
 
-print(int(c_out)) 
-print(int(h_out))  
-print(int(w_out))  
-print(int(adds))   
-print(int(muls))  
-print(int(divs))   
+print(int(c_out)) # output channel count
+print(int(h_out)) # output height count
+print(int(w_out)) # output width count
+print(int(adds))  # number of additions performed
+print(int(muls))  # number of multiplications performed
+print(int(divs))  # number of divisions performed
